@@ -125,7 +125,7 @@ async def get_thumb(videoid: str) -> str:
 
     # Add "KRITI BOTS" top-right (default font)
     font = ImageFont.truetype("SONALI_MUSIC/assets/font.ttf", 28)  # 
-    text = "KHUSHI BOTS"
+    text = "BADNAM BOTS"
     text_size = draw.textsize(text, font=font)
     draw.text((1280 - text_size[0] - 10, 10), text, fill="yellow", font=font)
     # Cleanup and save
